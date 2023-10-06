@@ -1,0 +1,48 @@
+// @import '/node_modules/view-ui-plus/src/styles/index.less';
+@import 'view-ui-plus/src/styles/index.less';
+
+// Here are the variables to cover, such as:
+@primary-color: #017139;
+@main-color: #017139;
+
+@second-color: #F5AB2C;
+
+.ivu-menu {
+  background-color: @main-color;
+}
+
+
+.ivu-menu-submenu-title {
+  color: #fff;
+  // font-weight: bold;
+}
+
+.ivu-menu-vertical .ivu-menu-submenu-title:hover {
+  // color: @second-color;
+  color: @second-color;
+}
+
+.ivu-menu-item {
+  background-color: @main-color;
+  color: #fff !important;
+}
+
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: @main-color;
+  background-color: @second-color!important;
+}
+
+.ivu-menu-vertical .ivu-menu-item:hover {
+  color: @second-color!important;
+}
+
+.ivu-card-head {
+  line-height: normal;
+}
+
+.ivu-card-body {
+  //background-color: #eee;
+}
+// .ivu-menu-item-group-title {
+//   color: black;
+// }
